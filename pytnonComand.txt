@@ -1,0 +1,2 @@
+- python and write file name.py =========> to Run code inside pyhton file
+- cls                           =========> to clear my terminal screen
