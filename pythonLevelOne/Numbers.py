@@ -1,4 +1,8 @@
 # Numbers and Variables
-a = 10
-a = a + a
-print(a)
+puppes = 10
+
+weight = 2
+
+total = (puppes * weight)
+
+print(total)
