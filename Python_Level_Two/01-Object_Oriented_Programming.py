@@ -35,8 +35,8 @@ print(mycircle.circumfrance())
 #Inheritance
 
 class Animal():
-    def __init__(self):
-        print('Animal created')
+    def __init__(self,fav):
+        self.fav = fav
     
     def report(self):
         print('Animal')
@@ -45,15 +45,43 @@ class Animal():
         print('Eating')
 
 class Dog(Animal):
-    def __init__(self):
-        Animal.__init__(self)
+    def __init__(self,fav):
+        Animal.__init__(self,fav)
         print("Dog Created")
     def report(self):
         print('I am a dog')
 
 
-d = Dog()
+d = Dog('buzzy')
 d.report()
 d.eat()
+print(d.fav)
+
+###################
+# Special Methods
+###################
+
+
+class Book():
+    def __init__(self, title, author, pages):
+        print("A book is created")
+        self.title = title
+        self.author = author
+        self.pages = pages
+
+    def __repr__(self):
+        # Notice how this is return, NOT print()
+        return f"Title:{self.title} , author:{self.author}, pages:{self.pages}"
+
+    def __len__(self):
+        return self.pages
+
+
+book = Book("Python Rocks!", "Jose Portilla", 159)
+
+#Special Methods
+print(book)
+print(len(book))
+
 
 
