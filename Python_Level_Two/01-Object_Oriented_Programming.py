@@ -31,3 +31,29 @@ mycircle = circle(10)
 print(mycircle.radius)
 print(mycircle.area())
 print(mycircle.circumfrance())
+
+#Inheritance
+
+class Animal():
+    def __init__(self):
+        print('Animal created')
+    
+    def report(self):
+        print('Animal')
+
+    def eat(self):
+        print('Eating')
+
+class Dog(Animal):
+    def __init__(self):
+        Animal.__init__(self)
+        print("Dog Created")
+    def report(self):
+        print('I am a dog')
+
+
+d = Dog()
+d.report()
+d.eat()
+
+
