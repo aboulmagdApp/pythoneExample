@@ -12,7 +12,7 @@ print(report())
 print(x)
 
 #Local
-def report():
+def report_1():
     #local Assignment
     x = 'local'
     print(x)
