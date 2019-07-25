@@ -8,5 +8,21 @@
     <h1>hello {{name}}</h1>
     <h1>{{letters[5:]}}</h1>
     <h1>{{pup_dictionary['pup_name']}}</h1>
+    <ul>
+        {% for pup in puppes%}
+        <li>{{pup}}</li>
+        {% endfor %}
+    </ul>
+
+    {% if 'Rufus' in puppes  %}
+        <p>Found you Rufus!</p>
+    {% else %}
+        <p>Hmm. Rufus is not in this list!</p>
+    {% endif %}
+    {% if user_logged_in %}
+        <p>welcome back, you are logged in!</p>
+    {% else %}
+        <p>please log in!</p>
+    {% endif %}
 </body>
 </html>
