@@ -2,7 +2,7 @@
 - cls                           =========> to clear my terminal screen
 - activate myflaskenv
 - deactivate
-
+- set FLASK_ENV=development     ==========> to change flask env from production to development
 
 
 
@@ -12,3 +12,4 @@ install packge
 - python -m pip install --upgrade pip   =================> update pip 
 - pip install flask
 - pip install Flask-WTF                 ==================> install To build flask froms
+- pip install Flask-SQLAlchemy          ==================> ORM
