@@ -2,3 +2,13 @@
 - cls                           =========> to clear my terminal screen
 - activate myflaskenv
 - deactivate
+
+
+
+
+================
+install packge
+===============
+- python -m pip install --upgrade pip   =================> update pip 
+- pip install flask
+- pip install Flask-WTF                 ==================> install To build flask froms
