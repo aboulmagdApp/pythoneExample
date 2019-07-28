@@ -3,9 +3,10 @@
 - activate myflaskenv
 - deactivate
 - set FLASK_ENV=development     ==========> to change flask env from production to development
-
-
-
+- set FLASK_APP=BasicModelApp.py =========> handel migration path script
+- flask db init
+- flask db migrate -m "Migration name"
+- flask db upgrade
 ================
 install packge
 ===============
@@ -13,3 +14,4 @@ install packge
 - pip install flask
 - pip install Flask-WTF                 ==================> install To build flask froms
 - pip install Flask-SQLAlchemy          ==================> ORM
+- pip install Flask-Migrate             
