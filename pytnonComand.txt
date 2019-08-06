@@ -17,4 +17,8 @@ install packge
 - pip install Flask-Migrate
 - pip install flask-bcrypt
 - pip install werkzeug
-- pip install Flask-Login         
+- pip install Flask-Login
+- pip install Flask-Dance
+- pip install Flask-Login
+- pip install Flask-OAuth
+- pip install Flask-OAuthlib
