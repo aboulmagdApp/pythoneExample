@@ -16,4 +16,5 @@ install packge
 - pip install Flask-SQLAlchemy          ==================> ORM
 - pip install Flask-Migrate
 - pip install flask-bcrypt
-- pip install werkzeug          
+- pip install werkzeug
+- pip install Flask-Login         
