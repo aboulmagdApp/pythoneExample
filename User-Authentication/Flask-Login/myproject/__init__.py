@@ -5,7 +5,7 @@ from flask_migrate import Migrate
 from flask_login import LoginManager
 
 # Create a login manager object
-login_manager = login_manager()
+login_manager = LoginManager()
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
